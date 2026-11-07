@@ -51,7 +51,7 @@ En esta pantalla SPI, `SDA` y `SCL` significan `MOSI` y `SCK`; no son I²C. Cone
 
 ### macOS
 
-1. Abre `iniciar-mac.command` (si macOS lo bloquea, haz clic derecho y elige **Abrir**).
+1. La primera vez, abre Terminal en la carpeta del proyecto y ejecuta `chmod +x iniciar-mac.command`. Después puedes abrir `iniciar-mac.command` desde Finder; si macOS lo bloquea, haz clic derecho y elige **Abrir**.
 2. Deja abierta la ventana de Terminal: mantiene activo el servidor web.
 3. En Chrome o Edge, abre `http://127.0.0.1:8765/`.
 
